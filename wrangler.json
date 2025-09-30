@@ -10,5 +10,9 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "routes": [
+    { "pattern": "ayerfuelunes.com", "custom_domain": true },
+    { "pattern": "www.ayerfuelunes.com", "custom_domain": true }
+  ]
 }
